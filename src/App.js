@@ -2,32 +2,48 @@ import "./App.css";
 import torula from "./assets/torula.png";
 import martonszabolcs from "./assets/martonszabolcs.png";
 import paypal from "./assets/paypal.png";
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 
 function App() {
-  const money = 542313;
+  const money = 52313;
   const allMoney = 3500000;
   const allMoneyPercent = (money / allMoney) * 100;
   const indicatorStyle = { width: allMoneyPercent + "%" };
   const myRef = useRef(null);
-
   const executeScroll = () =>
     myRef.current.scrollIntoView({ behavior: "smooth" });
+
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", (e) => {
+      if (window.scrollY > 60) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    });
+    return () => {
+      window.removeEventListener("scroll", () => {});
+    };
+  }, []);
   return (
     <div className="App font-archivo">
-      <div
-        onClick={executeScroll}
-        className="p-2 z-30 h-14 fixed rounded-3xl right-2 bottom-5 md:right-20 bg-green flex items-center justify-center"
-      >
-        <div className="font-bold mx-5 text-xl ">Támogass minket</div>
-      </div>
+      {showButton && (
+        <div
+          onClick={executeScroll}
+          className="p-2 z-30 h-14 fixed rounded-3xl right-2 bottom-5 md:right-20 bg-green flex items-center justify-center"
+        >
+          <div className="font-bold mx-5 text-xl ">Támogass minket</div>
+        </div>
+      )}
       <div className="bg-black text-left h-screen w-screen bg-kvark bg-cover bg-center bg-fixed">
-        <div className="mx-28 pt-24 absolute bottom-5 md:relative">
-          <div className="w-20 bg-white h-20 absolute -left-28 block md:hidden" />
+        <div className="mx-8 md:mx-24 pt-24 absolute bottom-5 md:relative">
+          <div className="w-20 bg-white h-20 absolute top-0 -left-8 block md:hidden" />
           <img
             src={torula}
             alt="Torula"
-            className="h-20 w-20 md:w-28 md:h-28 rounded absolute -left-24 block md:hidden"
+            className="h-20 w-20 md:w-28 md:h-28 rounded absolute top-0 block md:hidden"
           />
           <h1 className="mb-9 titleLine text-9xl font-bold text-green">
             KVA <br /> RK
@@ -35,14 +51,14 @@ function App() {
           <h2 className="text-2xl mt-9 text-white">
             Zenés előadás három <br /> részben
           </h2>
-          <h3 className="text-3xl mt-9 font-bold text-green">
+          <h3 className="text-3xl mt-9 mb-5 font-bold text-green">
             2022. MÁJUS 21. 20:00
           </h3>
         </div>
         <img
           src={torula}
           alt="Torula"
-          className="w-28 mx-32 h-28 bottom-0 absolute hidden md:block"
+          className="w-28 mx-24 h-28 bottom-0 absolute hidden md:block"
         />
       </div>
       <div className="text-left pt-24 pb-24 w-screen bg-bgwhite flex flex-col items-center">
@@ -84,17 +100,17 @@ function App() {
           alt="PayPal"
           className="h-20 mt-14"
         />
-        <div className="text-m text-center mt-10 text-black">
+        <div className="text-m m-10 text-center mb-0 text-black">
           <div className="font-bold">Banki átutalással</div>
           Számlatulajdonos: Concilium Arts Alapítvány
           <br />
-          Bankszámlaszám (UniCredit): 10918001-00000087-56130006 
+          Bankszámlaszám (UniCredit): 10918001-00000087-56130006
           <br />
           IBAN nemzetközi számlaszám: HU08109180010000008756130006
         </div>
       </div>
       <div className=" text-left pt-24 pb-24 w-screen bg-black flex flex-col items-center">
-      <div className="m-10 md:w-3/5 md:m-0 mt-0">
+        <div className="m-10 md:w-3/5 md:m-0 mt-0">
           <h4 className=" text-4xl  mb-12 font-bold text-green">
             A zeneszerzőről
           </h4>
@@ -113,7 +129,7 @@ function App() {
         </div>
       </div>
       <div className=" text-left pt-24 pb-24 w-screen bg-bgwhite flex flex-col items-center">
-      <div className="m-10 md:w-3/5 md:m-0 mt-0">
+        <div className="m-10 md:w-3/5 md:m-0 mt-0">
           <h4 className=" text-4xl  mb-12 font-bold text-black">
             Az előadásról
           </h4>
@@ -138,7 +154,7 @@ function App() {
         </div>
       </div>
       <div className=" text-left pt-24 pb-24 w-screen bg-black flex flex-col items-center">
-      <div className="m-10 md:w-3/5 md:m-0 mt-0">
+        <div className="m-10 md:w-3/5 md:m-0 mt-0">
           <h4 className=" text-4xl  mb-12 font-bold text-green">
             Mérföldkövek
           </h4>
@@ -286,7 +302,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="text-left pt-24 pb-24 w-screen bg-bgwhite flex flex-col items-center">
+      <div className="text-left m-10 pt-24 pb-24 w-screen bg-bgwhite flex lg:m-0 flex-col lg:items-center">
         <div className="w-3/5 lg:flex justify-between ">
           <h4 className=" text-4xl lg: lg:mt-10 font-bold text-black">
             Kapcsolat
