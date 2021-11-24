@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kvark.github.io/static/css/main.d2089db8.chunk.css",
-    "main.js": "/kvark.github.io/static/js/main.74ce41bb.chunk.js",
-    "main.js.map": "/kvark.github.io/static/js/main.74ce41bb.chunk.js.map",
+    "main.js": "/kvark.github.io/static/js/main.c18b6b25.chunk.js",
+    "main.js.map": "/kvark.github.io/static/js/main.c18b6b25.chunk.js.map",
     "runtime-main.js": "/kvark.github.io/static/js/runtime-main.aeedb7cf.js",
     "runtime-main.js.map": "/kvark.github.io/static/js/runtime-main.aeedb7cf.js.map",
     "static/js/2.465a9dea.chunk.js": "/kvark.github.io/static/js/2.465a9dea.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.aeedb7cf.js",
     "static/js/2.465a9dea.chunk.js",
     "static/css/main.d2089db8.chunk.css",
-    "static/js/main.74ce41bb.chunk.js"
+    "static/js/main.c18b6b25.chunk.js"
   ]
 }
