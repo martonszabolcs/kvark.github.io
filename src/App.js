@@ -45,8 +45,8 @@ function App() {
           className="w-28 mx-32 h-28 bottom-0 absolute hidden md:block"
         />
       </div>
-      <div className=" text-left pt-24 pb-24 w-screen bg-bgwhite flex flex-col items-center">
-        <div className="w-3/5">
+      <div className="text-left pt-24 pb-24 w-screen bg-bgwhite flex flex-col items-center">
+        <div className="m-10 md:w-3/5 md:m-0 mt-0">
           <h4 className=" text-4xl mb-12 font-bold text-black">
             Támogass minket
           </h4>
@@ -94,7 +94,7 @@ function App() {
         </div>
       </div>
       <div className=" text-left pt-24 pb-24 w-screen bg-black flex flex-col items-center">
-        <div className="w-3/5">
+      <div className="m-10 md:w-3/5 md:m-0 mt-0">
           <h4 className=" text-4xl  mb-12 font-bold text-green">
             A zeneszerzőről
           </h4>
@@ -113,7 +113,7 @@ function App() {
         </div>
       </div>
       <div className=" text-left pt-24 pb-24 w-screen bg-bgwhite flex flex-col items-center">
-        <div className="w-3/5">
+      <div className="m-10 md:w-3/5 md:m-0 mt-0">
           <h4 className=" text-4xl  mb-12 font-bold text-black">
             Az előadásról
           </h4>
@@ -138,7 +138,7 @@ function App() {
         </div>
       </div>
       <div className=" text-left pt-24 pb-24 w-screen bg-black flex flex-col items-center">
-        <div className="w-3/5">
+      <div className="m-10 md:w-3/5 md:m-0 mt-0">
           <h4 className=" text-4xl  mb-12 font-bold text-green">
             Mérföldkövek
           </h4>
