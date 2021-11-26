@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/kvark.github.io/static/css/main.c9ad848d.chunk.css",
-    "main.js": "/kvark.github.io/static/js/main.af4ecb39.chunk.js",
-    "main.js.map": "/kvark.github.io/static/js/main.af4ecb39.chunk.js.map",
-    "runtime-main.js": "/kvark.github.io/static/js/runtime-main.aeedb7cf.js",
-    "runtime-main.js.map": "/kvark.github.io/static/js/runtime-main.aeedb7cf.js.map",
-    "static/js/2.465a9dea.chunk.js": "/kvark.github.io/static/js/2.465a9dea.chunk.js",
-    "static/js/2.465a9dea.chunk.js.map": "/kvark.github.io/static/js/2.465a9dea.chunk.js.map",
-    "static/js/3.c6697e90.chunk.js": "/kvark.github.io/static/js/3.c6697e90.chunk.js",
-    "static/js/3.c6697e90.chunk.js.map": "/kvark.github.io/static/js/3.c6697e90.chunk.js.map",
+    "main.css": "/kvark.github.io/static/css/main.f7ce9313.chunk.css",
+    "main.js": "/kvark.github.io/static/js/main.1f007060.chunk.js",
+    "main.js.map": "/kvark.github.io/static/js/main.1f007060.chunk.js.map",
+    "runtime-main.js": "/kvark.github.io/static/js/runtime-main.b6e7bd9c.js",
+    "runtime-main.js.map": "/kvark.github.io/static/js/runtime-main.b6e7bd9c.js.map",
+    "static/js/2.ec59b5cf.chunk.js": "/kvark.github.io/static/js/2.ec59b5cf.chunk.js",
+    "static/js/2.ec59b5cf.chunk.js.map": "/kvark.github.io/static/js/2.ec59b5cf.chunk.js.map",
+    "static/js/3.a412a17c.chunk.js": "/kvark.github.io/static/js/3.a412a17c.chunk.js",
+    "static/js/3.a412a17c.chunk.js.map": "/kvark.github.io/static/js/3.a412a17c.chunk.js.map",
     "index.html": "/kvark.github.io/index.html",
-    "static/css/main.c9ad848d.chunk.css.map": "/kvark.github.io/static/css/main.c9ad848d.chunk.css.map",
-    "static/js/2.465a9dea.chunk.js.LICENSE.txt": "/kvark.github.io/static/js/2.465a9dea.chunk.js.LICENSE.txt",
+    "static/css/main.f7ce9313.chunk.css.map": "/kvark.github.io/static/css/main.f7ce9313.chunk.css.map",
+    "static/js/2.ec59b5cf.chunk.js.LICENSE.txt": "/kvark.github.io/static/js/2.ec59b5cf.chunk.js.LICENSE.txt",
     "static/media/index.css": "/kvark.github.io/static/media/kvark.1f597324.png",
     "static/media/martonszabolcs.39dd2511.png": "/kvark.github.io/static/media/martonszabolcs.39dd2511.png",
     "static/media/paypal.59a089cb.png": "/kvark.github.io/static/media/paypal.59a089cb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.aeedb7cf.js",
-    "static/js/2.465a9dea.chunk.js",
-    "static/css/main.c9ad848d.chunk.css",
-    "static/js/main.af4ecb39.chunk.js"
+    "static/js/runtime-main.b6e7bd9c.js",
+    "static/js/2.ec59b5cf.chunk.js",
+    "static/css/main.f7ce9313.chunk.css",
+    "static/js/main.1f007060.chunk.js"
   ]
 }
