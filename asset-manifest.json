@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/kvark.github.io/static/css/main.f7ce9313.chunk.css",
-    "main.js": "/kvark.github.io/static/js/main.11db9baa.chunk.js",
-    "main.js.map": "/kvark.github.io/static/js/main.11db9baa.chunk.js.map",
+    "main.css": "/kvark.github.io/static/css/main.d084c13c.chunk.css",
+    "main.js": "/kvark.github.io/static/js/main.8ed17983.chunk.js",
+    "main.js.map": "/kvark.github.io/static/js/main.8ed17983.chunk.js.map",
     "runtime-main.js": "/kvark.github.io/static/js/runtime-main.b6e7bd9c.js",
     "runtime-main.js.map": "/kvark.github.io/static/js/runtime-main.b6e7bd9c.js.map",
     "static/js/2.ec59b5cf.chunk.js": "/kvark.github.io/static/js/2.ec59b5cf.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.a412a17c.chunk.js": "/kvark.github.io/static/js/3.a412a17c.chunk.js",
     "static/js/3.a412a17c.chunk.js.map": "/kvark.github.io/static/js/3.a412a17c.chunk.js.map",
     "index.html": "/kvark.github.io/index.html",
-    "static/css/main.f7ce9313.chunk.css.map": "/kvark.github.io/static/css/main.f7ce9313.chunk.css.map",
+    "static/css/main.d084c13c.chunk.css.map": "/kvark.github.io/static/css/main.d084c13c.chunk.css.map",
     "static/js/2.ec59b5cf.chunk.js.LICENSE.txt": "/kvark.github.io/static/js/2.ec59b5cf.chunk.js.LICENSE.txt",
     "static/media/index.css": "/kvark.github.io/static/media/kvark.1f597324.png",
     "static/media/martonszabolcs.39dd2511.png": "/kvark.github.io/static/media/martonszabolcs.39dd2511.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.b6e7bd9c.js",
     "static/js/2.ec59b5cf.chunk.js",
-    "static/css/main.f7ce9313.chunk.css",
-    "static/js/main.11db9baa.chunk.js"
+    "static/css/main.d084c13c.chunk.css",
+    "static/js/main.8ed17983.chunk.js"
   ]
 }
